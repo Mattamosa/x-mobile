@@ -401,9 +401,9 @@ nav ul li a:hover {
 
 /* MAIN  */
 main p {
-  padding: 0.5rem 2vw;
+  padding: 0.5rem 1rem;
   color: #333;
-  line-height: 125%;
+  line-height: 140%;
 }
 main h1 {
   padding: 1rem 2vw 0.5rem 2vw;
@@ -499,7 +499,7 @@ main img {
 .round,
 .fill,
 .shadow {
-  padding: 8px 14px;
+  padding: 8px 12px;
 }
 
 .color-h2 {
@@ -580,6 +580,9 @@ footer a {
   }
   main h1 {
     padding-left: 1.2rem;
+  }
+  main p {
+    padding: 0.5rem 1.3rem;
   }
   .medium-1 {
     flex-basis: 8.3333333333%;
@@ -662,6 +665,10 @@ footer a {
   }
   main h1 {
     padding-left: 1.1rem;
+  }
+  main p {
+    padding: 0.5rem 1.2rem;
+    line-height: 155%;
   }
   .large-1 {
     flex-basis: 8.3333333333%;
