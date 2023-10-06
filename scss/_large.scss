@@ -1,0 +1,59 @@
+header,
+main {
+  max-width: 1240px;
+  margin: auto;
+}
+
+header {
+  grid-template-columns: 51px auto auto;
+} // header
+
+/* NAVIGATION STUFF GOES HERE  */
+nav {
+  justify-self: end;
+  button {
+    display: none;
+  }
+  ul,
+  ul.open {
+    position: relative;
+    display: flex;
+    background-color: transparent;
+    width: auto;
+    margin: 0;
+    border-radius: none;
+  } // end ul
+
+  ul li {
+    border: none;
+  }
+
+  ul li a {
+    color: #333;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    margin-left: 0.2rem;
+    transition: all 0.5s ease;
+  } // end anchor
+
+  ul li a:hover {
+    background-color: #eee;
+    color: #333 !important;
+  }
+
+  ul li.active a {
+    color: white;
+  }
+} // end navigation
+
+main h1 {
+  padding-left: 1.1rem;
+}
+
+// Create the for Loop
+@for $i from 1 through 12 {
+  $w: calc($i / 12) * 100%;
+  .large-#{$i} {
+    flex-basis: $w;
+  }
+}
