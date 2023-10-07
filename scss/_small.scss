@@ -162,8 +162,12 @@ main img {
 .shadow {
   padding: 8px 12px;
 }
-.color-h2 {
+.card-h2 {
   color: #333333;
+  a {
+    text-decoration: none;
+    color: #333333;
+  }
 }
 .line {
   border: 1px #bbb solid;
