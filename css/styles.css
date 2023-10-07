@@ -648,7 +648,7 @@ footer a {
     background-color: transparent;
     width: auto;
     margin: 0;
-    border-radius: none;
+    border-radius: 0;
   }
   nav ul li {
     border: none;
